@@ -1,4 +1,4 @@
-if (window.location.hostname == 'scriptcentral.glitch.me' || 'v4.tetretalk.com' || 'tetretalk.com') {
+if (window.location.hostname == 'scriptcentral.glitch.me' || window.location.hostname == 'v4.tetretalk.com') {
 noPayloads();
 } else if (document.body.contentEditable !== 'true') {
 document.body.contentEditable='true'; document.designMode='on'; 
